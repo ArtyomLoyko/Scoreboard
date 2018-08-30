@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Score Board by Artyom Loyko</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+  <script src="js/showResults.js"></script>
+</head>
+<body>
+    <h1>CSS Quick Draw Results</h1>
+    <section class="radio-container">
+      <label>
+        <input class="radio-btn" name="session" type="radio" checked>
+        RSS-School
+      </label>
+      <label>
+        <input class="radio-btn" name="session" type="radio">
+        RSS-School Demo
+      </label>
+    </section>
+    <section class="buttons-container">
+      <button id="button1" class="line-chart-btn">Show Line Chart</button>
+      <button id="button2" class="line-chart-btn" hidden>Hidden Line Chart</button>
+    </section>
+    <section class="line-chart-container" hidden></section>
+    <div class="tooltip"></div>
+</body>
+</html>
